@@ -87,7 +87,7 @@ nav a:hover{
 
 footer {
     background-color: #fff6c2;
-    padding: 25px, 50px;
+    padding: 25px 50px;
     margin-top: 200px;
 }
 
@@ -141,5 +141,5 @@ footer .social img{
 }
 
 .card{
-    border: 10px, solid, #3a5590;
+    border: 10px solid #3a5590;
 }
