@@ -167,7 +167,7 @@ footer h3{
 }
 
 footer a{
-    color: #3a5590;;
+    color: #3a5590;
     text-decoration:none;
 }
 
@@ -272,4 +272,49 @@ footer .social img{
     footer {
         background-color: #6f7362;
     }
+}
+
+.child-home-grid {
+    display: grid; 
+    grid-template-columns:50% 50%;
+    margin:0px;
+    margin-top:100px;
+}
+
+h1 {
+    font-size:80px;
+    margin: 15%;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.questions{
+    color:#fff6c2;
+    background-color:#3a5590;
+    margin: 15px;
+    padding: 15px
+}
+
+.answers{
+    color: #3a5590;
+    background-color:#fff6c2;
+    margin:20px;
+    padding: 20px;
+}
+
+#footer-child {
+    background-color: #fff6c2;
+    margin:10px;
+    margin-top: 25px;
+}
+
+#header-child{
+    margin-bottom:50px;
+}
+
+#child-hero{    
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5%
 }
