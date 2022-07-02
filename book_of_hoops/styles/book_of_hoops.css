@@ -1,37 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Raleway:ital,wght@0,200;1,200&display=swap');
 
 body {
-    font-family: Open Sans, 'Times New Roman', Times, serif;
+    font-family: 'Alegraya';
     font-size: 22px;
     max-width: 1600px;
     height: 300px;
     margin: 0 auto;
     margin: 0;
     padding: 0;
+    background-color:black;
+    align-items: center;
 }
 
-#index-content{
-    display: inline;
-    min-height: 100%;
+.index-content{
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap:20px;
 }
 
 header{
-    background-color:#fff6c2;
+    background-color:#BED3F0;
     display: grid;
     grid-template-columns: 150px auto;
-    font-family: "Alegraya SC";
+    margin-bottom: 50px;
 }
 
+#Title1{
+    background-color: #BED3F0;
+    text-align: center;
+    color:white;
+}
+
+#Title2{
+    margin-top: 0px;
+    text-align: center;
+}
+
+#Title3{
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Raleway'
+}
+
+
+#about-us-title{
+    font-family: 'Alegraya SC';
+    font-size: 40px;
+}
+
+
 .logo {
-    width:80px;
+    width: 100px;
 }
 
 nav a{
-    background-color:#fff6c2;
-    color:#3a5590;
+    background-color:#BED3F0;
+    color:#4449B7;
     padding: 35px;
 }
 
@@ -42,81 +66,91 @@ nav{
 }
 
 nav a:hover{
-    background-color:#fff6c2;
+    background-color:#BED3F0;
     color: #fff;
 
 }
 
-#kobe, #youth{
-    width:100%;
+
+#Title1, h2, h3, h4{
+    color:#4449B7 ;
+    background-color: #BED3F0;
 }
 
-h3{
-    text-align: center;
+h4{
+    font-family:"Alegreya SC";
 }
 
-.nets-court, .lakers-court, .outside-court{
-    width:50%;
-    height:25%
+.nets-court, .outside-court{
+    width:60%;
+    height:85%;
+    margin-top: 50px;
 }
 
-.random-court, .youth{
-    width:50%;
-    height:25%
-}
+.random-court{
+    width:70%;
+    height:70%;
+} 
 
-.free-agency{
-    grid-row:2/3;
-    width:100%;
-    height:50%
-}
-
-.jumpshot{
-    grid-row:2/3;
-    width:100%;
-    height:50%;
+.youth{
+    width:30%;
+    height:70%;
 }
 
 .nba-draft{
-    grid-row:1/2;
     grid-column:1/3;
-    margin-bottom:0px;
-    width:100%;
-    height:100%;
+    color:#fff;
+    text-align:center;
+    margin-top: 50px;
+}
+
+
+
+.jumpshot{
+    grid-column:2/3;
+    color:#000;
+    text-align: center;
+    background-color: #BED3F0;
+    align-items: center;
+}
+
+.free-agency{
+    color:white;
+    text-align: center;
+    background-color: #BED3F0;
 }
 
 #about-us{
-    grid-row:3/4;
     grid-column:1/3;
-    background-color: black;
     color:white;
-    width:100%;
-    height:100%
+    background-color: #BED3F0;
+    text-align: center;
+    /* margin-bottom: 100px; */
 }
 
 
 
 footer {
-    background-color: #fff6c2;
+    background-color: #BED3F0;
     padding: 25px 50px;
     margin-top: 200px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "Alegraya SC";
+    margin-top:100px;
 }
 
 footer h3{
-    color:#3a5590;
+    color:#4449B7;
 }
 
 footer a{
-    color: #3a5590;
+    color: #4449B7;
     text-decoration:none;
 }
 
 footer a:hover{
-    color:#fff;
+    color:#BED3F0;
 }
 
 footer .social img{
