@@ -261,3 +261,24 @@ h3{
     width:100%;
     height:100%;
 }
+
+.content-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 10%;
+    color:white;
+    grid-gap: 100px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#content-explaination{
+    color:white;
+    grid-column: 1/3;
+    font-family: 'Raleway';
+}
+
+h1{
+    font-family: 'Alegraya SC'
+}
